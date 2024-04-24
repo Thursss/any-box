@@ -20,9 +20,9 @@ export default defineConfig({
       //指定组件编译入口文件
       entry: "./src/packages/index.ts",
       // 组件库名称
-      name: "ViteVue3TsTestFjc",
+      name: "AnyBox",
       // 文件名称
-      fileName: "vite-vue3-ts-test-fjc",
+      fileName: "any-box",
     },
     rollupOptions: {
       // 确保外部化处理那些你不想打包进库的依赖

@@ -1,18 +1,32 @@
 {
-  "name": "vite-project",
-  "private": true,
-  "version": "0.0.0",
+  "name": "any-box",
+  "description": "用于测试打包提示的项目",
+  "private": false,
+  "version": "1.0.0",
+  "author": "fry",
+  "license": "MIT",
   "type": "module",
+  "main": "dist/any-box.js",
+  "module": "dist/any-box.umd.cjs",
+  "types": "dist/index.d.ts",
+  "files": [
+    "package.json",
+    "README.md",
+    "dist"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
     "preview": "vite preview"
   },
   "dependencies": {
-    "vue": "^3.4.21"
+    "vue": "^3.4.21",
+    "vue-demi": "^0.14.7"
   },
   "devDependencies": {
     "@vitejs/plugin-vue": "^5.0.4",
+    "sass": "^1.75.0",
+    "sass-loader": "^14.2.1",
     "typescript": "^5.2.2",
     "vite": "^5.2.0",
     "vite-plugin-dts": "^3.9.0",
